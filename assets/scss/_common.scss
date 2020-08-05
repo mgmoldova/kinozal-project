@@ -18,3 +18,49 @@ a {
     color: $color-accent;
   }
 }
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: $font-header;
+  margin: -7.5px 0 45px;
+
+  &::after {
+    position: absolute;
+    width: 100%;
+    margin: 0.85em 0 0 15px;
+    content: "";
+    border-bottom: 3px solid rgba(240, 173, 79, 0.7);
+  }
+
+  @include xs-min {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-family: $font-header;
+  margin: 60px 0 45px 45px;
+  &::before {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    margin: 0.25em 0 0 0;
+    content: "";
+    border-bottom: 3px solid rgba(240, 173, 79, 0.7);
+  }
+  &::after {
+    position: absolute;
+    width: 100%;
+    margin: 0.85em 0 0 15px;
+    content: "";
+    border-bottom: 3px solid rgba(240, 173, 79, 0.7);
+  }
+
+  @include xs-min {
+    font-size: 2.5rem;
+  }
+}

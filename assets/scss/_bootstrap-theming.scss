@@ -104,11 +104,22 @@
     &.active > a,
     &.active > a:focus,
     &.active > a:hover {
-      background-color: darken(#ffffff, 3%);
+      background-color: darken($color-light, 3%);
     }
   }
 }
 
 .thumbnail {
   transition: background-color 0.25s;
+}
+
+.embed-responsive { 
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.well {
+  border-color: #dddddd;
+  background-color: #f1f1f1;
 }
