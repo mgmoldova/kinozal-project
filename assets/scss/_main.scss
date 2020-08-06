@@ -10,6 +10,24 @@
   }
 }
 
+.user-login {
+  position: relative;
+  &__tabs {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    border: none;
+    a {
+      padding: 14px 5px 12px !important;
+      color: #dddddd;
+      border: none !important;
+      background-color: transparent !important;
+    }
+    .active a {
+      color: #ffffff !important;
+    }
+  }
+}
 .new-films {
   &-title {
     margin-top: -5px;
@@ -30,3 +48,5 @@
     }
   }
 }
+
+

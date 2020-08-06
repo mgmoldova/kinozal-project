@@ -185,6 +185,28 @@ h2::after {
   margin-bottom: 60px;
 }
 
+.user-login {
+  position: relative;
+}
+
+.user-login__tabs {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  border: none;
+}
+
+.user-login__tabs a {
+  padding: 14px 5px 12px !important;
+  color: #dddddd;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.user-login__tabs .active a {
+  color: #ffffff !important;
+}
+
 .new-films-title {
   margin-top: -5px;
 }

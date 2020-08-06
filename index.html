@@ -303,19 +303,20 @@
       <div class="user-login panel panel-info hidden-sm hidden-xs">
         <div class="panel-heading">Пользователь</div>
         <div class="panel-body">
-
-          <ul class="nav nav-tabs" role="tablist">
+          <ul class="user-login__tabs nav nav-tabs" role="tablist">
             <li role="presentation" class="active">
-              <a href="#user-login-aside" aria-controls="user-login-aside" role="tab" data-toggle="tab">Вход</a>
+              <a href="#user-login-sidebar" aria-controls="user-login-sidebar" role="tab" data-toggle="tab">
+                <span class="glyphicon glyphicon-user" title="Вход"></span>
+              </a>
             </li>
             <li role="presentation">
-              <a href="#user-password-aside" aria-controls="user-password-aside" role="tab" data-toggle="tab">Регистрация</a>
+              <a href="#user-password-sidebar" aria-controls="user-password-sidebar" role="tab" data-toggle="tab">
+                <span class="glyphicon glyphicon-plus" title="Регистрация"></span>
+              </a>
             </li>
           </ul>
-
-          <div class="tab-content">
-
-            <div role="tabpanel" class="tab-pane fade in active" id="user-login-aside">
+          <div class="user-login__content tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="user-login-sidebar">
               <form action="login">
                 <div class="form-group">
                   <input class="form-control input-lg" type="text" placeholder="Логин">
@@ -326,8 +327,7 @@
                 <button class="btn btn-lg btn-default btn-block" type="submit">Вход</button>
               </form>
             </div>
-
-            <div role="tabpanel" class="tab-pane fade" id="user-password-aside">
+            <div role="tabpanel" class="tab-pane fade" id="user-password-sidebar">
               <form action="login">
                 <div class="form-group">
                   <input class="form-control input-lg" type="text" placeholder="Логин">
@@ -341,9 +341,7 @@
                 <button class="btn btn-lg btn-default btn-block" type="submit">Регистрация</button>
               </form>
             </div>
-
           </div>
-
         </div>
       </div>
 
