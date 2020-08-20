@@ -371,6 +371,13 @@ h2::after {
 
 .footer a {
   color: #777777;
+  -webkit-transition: color 0s;
+  -o-transition: color 0s;
+  transition: color 0s;
+}
+
+.footer a:hover {
+  color: #ffffff;
 }
 
 .footer-fifth {
