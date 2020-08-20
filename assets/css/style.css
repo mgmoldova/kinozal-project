@@ -358,6 +358,30 @@ h2::after {
           transform: translateY(-50%);
 }
 
+.footer {
+  padding-top: 45px;
+  color: #fbfbfb;
+  background-color: #232323;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer a {
+  color: #777777;
+}
+
+.footer-fifth {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer-fifth a {
+  color: #fbfbfb;
+}
+
 @media (min-width: 576px) {
   h1 {
     font-size: 3rem;
