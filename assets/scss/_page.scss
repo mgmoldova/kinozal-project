@@ -1,9 +1,8 @@
 .film {
-    font-size: 1.2em;
-    
     &-info {
-         border-top-left-radius: 0;
-         border-top-right-radius: 0;
+        font-size: 1.2em;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
 
         &__badge {
             font-size: 0.8em;
@@ -14,5 +13,12 @@
                 margin-right: 15px;
             }
         }
+        &__well {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+    &-comment-form__button {
+        float: right;
     }
 }
