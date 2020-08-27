@@ -21,15 +21,15 @@
     margin-bottom: $gap;
     min-height: 85px;
 
-    &::after {
-      content: "";
+    &:not(:last-child)::after {
       position: absolute;
-      height: 1px;
-      width: calc(100% - 85px);
-      background-color: $color-gray;
       right: 0;
       bottom: -5px;
-    }
+      width: calc(100% - 85px);
+      height: 1px;
+      content: "";
+      background-color: #dddddd;
+  }
 
     &:hover {
       .site-news-item__title a {
