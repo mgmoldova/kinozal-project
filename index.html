@@ -3,12 +3,11 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>КиноЗал</title>
   <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700%7CPT+Serif:400,700" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="icon" href="assets/img/favicon.png" type="image/x-icon"/>
   <!--[if lt IE 9]>
@@ -64,7 +63,7 @@
 
     <main class="main col-lg-9 col-lg-push-3 col-md-8 col-md-push-4">
 
-      <section class="site-search panel panel-info hidden-lg hidden-md">
+      <div class="site-search panel panel-info hidden-lg hidden-md">
         <div class="panel-heading">Поиск</div>
         <div class="panel-body">
           <form action="search">
@@ -76,18 +75,18 @@
             </div>
           </form>
         </div>
-      </section>
-      <section class="user-login panel panel-info hidden-lg hidden-md">
+      </div>
+      <div class="user-login panel panel-info hidden-lg hidden-md">
         <div class="panel-heading">Пользователь</div>
         <div class="panel-body">
           <ul class="user-login__tabs nav nav-tabs" role="tablist">
             <li role="presentation" class="active">
-              <a href="#user-login-main" aria-controls="user-login-main" role="tab" data-toggle="tab">
+              <a href="#user-login-main" role="tab" data-toggle="tab">
                 <span class="glyphicon glyphicon-log-in" title="Вход"></span>
               </a>
             </li>
             <li role="presentation">
-              <a href="#user-registration-main" aria-controls="user-password-main" role="tab" data-toggle="tab">
+              <a href="#user-registration-main" role="tab" data-toggle="tab">
                 <span class="glyphicon glyphicon-user" title="Регистрация"></span>
               </a>
             </li>
@@ -120,7 +119,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <section class="new-films">
         <h1 class="new-films-title">Новые фильмы</h1>
         <div class="new-films-row row">
@@ -486,7 +485,7 @@
               </a>
             </li>
             <li role="presentation" class="">
-              <a href="#user-registration-sidebar" aria-controls="user-password-sidebar" role="tab" data-toggle="tab" aria-expanded="false">
+              <a href="#user-registration-sidebar" role="tab" data-toggle="tab" aria-expanded="false">
                 <span class="glyphicon glyphicon-user" title="Регистрация"></span>
               </a>
             </li>
